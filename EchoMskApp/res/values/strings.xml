@@ -7,5 +7,9 @@
     <string name="loading_schedule">Загрузка с www.echo.msk.ru</string>
     <string name="offline_text">Проверьте подключение к сети</string>
     <string name="refersh_button_descr">Reload</string>
+    <string name="TMP_title">19:35 Особое мнение</string>
+    <string name="TMP_subtitle">Криминальные аборты</string>
+    <string name="TMP_author">Василий Жопин</string>
+    <string name="TMP_guest">Гости: Петр Петрович Пердюков</string>
 
 </resources>

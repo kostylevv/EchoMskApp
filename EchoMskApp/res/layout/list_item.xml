@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/programTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/TMP_title" 
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        />
+
+    <TextView
+        android:id="@+id/programSubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/programTitle"
+        android:text="@string/TMP_subtitle" />
+
+    <TextView
+        android:id="@+id/programAuthor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/programSubtitle"
+        android:text="@string/TMP_author" />
+
+    <TextView
+        android:id="@+id/programGuest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/programAuthor"
+        android:text="@string/TMP_guest" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/programTitle"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/ic_action_signal" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignRight="@+id/programAuthor"
+        android:layout_alignTop="@+id/imageButton1"
+        android:src="@drawable/ic_action_download" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/programGuest"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/ic_action_book" />
+
+</RelativeLayout>

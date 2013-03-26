@@ -4,5 +4,8 @@
     <string name="app_name">EchoMskApp</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="loading_schedule">Загрузка с www.echo.msk.ru</string>
+    <string name="offline_text">Проверьте подключение к сети</string>
+    <string name="refersh_button_descr">Reload</string>
 
 </resources>

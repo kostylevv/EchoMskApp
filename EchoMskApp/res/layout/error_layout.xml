@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/refresh_button_error_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/refersh_button_descr"
+        android:src="@drawable/ic_action_reload" />
+
+    <TextView
+        android:id="@+id/offlineText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/offline_text" />
+
+</LinearLayout>
